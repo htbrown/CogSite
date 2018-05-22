@@ -1,0 +1,65 @@
+/* Global CSS */
+@keyframes fade {
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0% 50%}
+}
+
+#active-navbar-item {
+    background-color:#60347f;
+    color: white;
+}
+
+#navbar-item:hover {
+    background-color:#60347f;
+    color: white;
+}
+
+#page-button {
+    background-color:#8E44AD;
+    color: white;
+}
+
+#page-button:hover {
+    background-color:#60347f;
+    color: white;
+}
+
+footer {
+    margin-top:50px;
+}
+
+.hero {
+    background: linear-gradient(270deg, #3498db, #8e44ad);
+    background-size: 400% 400%;
+    animation: fade 40s ease infinite;
+}
+.is-fade {
+    background: linear-gradient(270deg, #3498db, #8e44ad);
+    background-size: 400% 400%;
+    animation: fade 40s ease infinite;
+}
+/* End of global CSS */
+.dev {
+    transition: transform .5s ease;
+    border-radius: 100%;
+    display: inline-block;
+    max-width: 100%;
+}
+.dev:hover {
+    transform: scale(1.1) rotate(360deg) 
+}
+.dev-section {
+    margin-left:20%;
+    margin-right:20%;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.dev-clr {
+    border: 6px solid #8E44AD;
+}
+.tag.is-dev {
+    background-color: #8E44AD;
+    color: white;
+}
